@@ -7,10 +7,10 @@ console.log(`«[${number1}]: Это нечетное число»`);
 }
 
 
-var number = 1; {
+let number = 1;
+number = 1; 
 
     console.log(number++);
     console.log(++number);
     console.log(number--);
     console.log(--number);
-}
