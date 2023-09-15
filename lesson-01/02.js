@@ -8,9 +8,9 @@ console.log(`«[${number1}]: Это нечетное число»`);
 
 
 let number = 1;
-number = 1; 
-
+number = 1; {
     console.log(number++);
     console.log(++number);
     console.log(number--);
     console.log(--number);
+}
