@@ -6,7 +6,7 @@ if (number1 % 2===0) {
     console.log(`«[${number1}]: Это нечетное число»`);
 }
 
-let number2 = 1; {
+const number2 = 1; {
 
 console.log(number2++);
 console.log(++number2);
