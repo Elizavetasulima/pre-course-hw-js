@@ -8,5 +8,5 @@ if (number1 % 2===0) {
 
 let number = 1; 
 
-console.log(number++), console.log(++number), console.log(number--), console.log(--number);
+console.log(number++, ++number, number--, --number);
 
