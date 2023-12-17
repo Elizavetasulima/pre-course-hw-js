@@ -2,8 +2,8 @@ let passport = {
     name: "Petr",
     surname: "Petrov",
 };
-
-let passportCopy = {
+let passportCopy = passport;
+passport = {
     name: "Ivan",
     surname: "Petrov",
 };
