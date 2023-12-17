@@ -3,8 +3,13 @@ let passport = {
     surname: "Petrov",
 };
 
-let passportCopy = Object.assign ({}, passport)
-passportCopy.name = 'Ivan'
+let passportCopy = {
+    name: "Ivan",
+    surname: "Petrov",
+};
+
+// let passportCopy = Object.assign ({}, passport)
+// passportCopy.name = 'Ivan'
 
 
 // let passport1 = {}; // новый пустой объект
