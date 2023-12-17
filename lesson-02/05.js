@@ -20,6 +20,5 @@ let passportCopy = {
 // }
 // // теперь clone это полностью независимый объект с тем же содержимым
 // passport1.name = "Ivan"; // изменим в нём данные
-
-console.log(passport)
 console.log(passportCopy);
+console.log(passport)
