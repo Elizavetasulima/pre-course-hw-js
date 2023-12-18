@@ -16,6 +16,6 @@ for (let key in passport) {
 }
 // теперь clone это полностью независимый объект с тем же содержимым
 clonePassport.name = "Ivan"; // изменим в нём данные
-console.log(passport)
-console.log(clonePassport);
+console.log(passport.name)
+console.log(clonePassport.name);
 
